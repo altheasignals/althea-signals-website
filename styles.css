@@ -1,9 +1,12 @@
 /* CSS Variables */
 :root {
-    --primary-color: #4F46E5; /* Indigo */
+    --primary-color: #4F46E5;
+    /* Indigo */
     --primary-hover: #4338ca;
-    --secondary-color: #0EA5E9; /* Sky Blue */
-    --accent-color: #DC2626; /* Crimson */
+    --secondary-color: #0EA5E9;
+    /* Sky Blue */
+    --accent-color: #DC2626;
+    /* Crimson */
     --bg-color: #F8FAFC;
     --surface-color: #FFFFFF;
     --text-main: #1E293B;
@@ -45,13 +48,19 @@ ul {
     list-style: none;
 }
 
-img, svg {
+img,
+svg {
     display: block;
     max-width: 100%;
 }
 
 /* Typography */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--text-main);
     font-weight: 700;
     line-height: 1.2;
@@ -178,7 +187,8 @@ p {
 
 /* Hero Section */
 .hero {
-    margin-top: 70px; /* Offset for fixed navbar */
+    margin-top: 70px;
+    /* Offset for fixed navbar */
     padding: 8rem 0 6rem;
     text-align: center;
     background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
@@ -192,6 +202,7 @@ p {
     margin-right: auto;
     background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -339,7 +350,8 @@ p {
 
 /* Footer */
 .footer {
-    background-color: #0f172a; /* Dark Slate */
+    background-color: #0f172a;
+    /* Dark Slate */
     color: #94a3b8;
     padding: 2rem 0;
     font-size: 0.875rem;
@@ -370,9 +382,10 @@ p {
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-links {
-        display: none; /* Hidden for simplicity on mobile, or could implement JS toggle */
+        display: none;
+        /* Hidden for simplicity on mobile, or could implement JS toggle */
     }
-    
+
     .hamburger {
         display: flex;
     }
@@ -385,7 +398,7 @@ p {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
-    
+
     .section {
         padding: 3rem 0;
     }
