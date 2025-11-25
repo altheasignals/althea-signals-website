@@ -12,6 +12,7 @@ This is a static website for Althea Signals Network LLC, built with HTML, CSS, a
 
 1.  **Locally**: Simply double-click `index.html` to open it in your web browser.
 2.  **GitHub Pages**:
+    -   **Live URL**: [https://altheasignals.net/](https://altheasignals.net/)
     -   Push this repository to GitHub.
     -   Go to Settings > Pages.
     -   Select the `main` branch and `/ (root)` folder.
